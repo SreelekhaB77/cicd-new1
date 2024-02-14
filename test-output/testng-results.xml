@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-09T15:17:12 IST" name="Suite" finished-at="2024-02-09T15:17:19 IST" duration-ms="6886">
+  <suite started-at="2024-02-12T16:58:34 IST" name="Default suite" finished-at="2024-02-12T16:58:39 IST" duration-ms="4819">
     <groups>
     </groups>
-    <test started-at="2024-02-09T15:17:12 IST" name="Test" finished-at="2024-02-09T15:17:19 IST" duration-ms="6886">
+    <test started-at="2024-02-12T16:58:34 IST" name="Default test" finished-at="2024-02-12T16:58:39 IST" duration-ms="4819">
       <class name="google.cicddemo.googleautomation">
-        <test-method signature="launch()[pri:0, instance:google.cicddemo.googleautomation@302552ec]" started-at="2024-02-09T15:17:12 IST" name="launch" finished-at="2024-02-09T15:17:19 IST" duration-ms="6848" status="PASS">
+        <test-method signature="launch()[pri:0, instance:google.cicddemo.googleautomation@3eb25e1a]" started-at="2024-02-12T16:58:34 IST" name="launch" finished-at="2024-02-12T16:58:39 IST" duration-ms="4772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
       </class> <!-- google.cicddemo.googleautomation -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
