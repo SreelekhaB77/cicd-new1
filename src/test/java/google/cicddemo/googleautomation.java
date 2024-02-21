@@ -25,13 +25,16 @@ public static void launch() throws InterruptedException
 
 	System.out.println("hi");		
 	
-    WebDriverManager.firefoxdriver().setup();
-    driver = new FirefoxDriver();
+//    WebDriverManager.firefoxdriver().setup();
+//    driver = new FirefoxDriver();
 	
 //    WebDriverManager.edgedriver().setup();
 //    driver = new EdgeDriver();
 //	WebDriverManager.chromiumdriver().setup();
 //	driver = new ChromeDriver();
+	String path =System.getProperty("user.dir") +"\\src\\test\\java\\chromedriver.exe";
+	System.setProperty("webdriver.chrome.driver",path);
+	WebDriver driver = new ChromeDriver();
     driver.manage().window().maximize();
     driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
     driver.get("https://www.google.com/");
