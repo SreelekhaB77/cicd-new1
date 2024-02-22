@@ -37,7 +37,7 @@ public static void launch() throws InterruptedException
 	WebDriver driver = new ChromeDriver();
     driver.manage().window().maximize();
     driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
-    driver.get("https://www.google.com/");
+    driver.get("https://www.techtheos.com/");
     System.out.println(driver.getTitle());
     System.out.println("hi");
 }	
