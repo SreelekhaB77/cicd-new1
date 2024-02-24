@@ -32,7 +32,7 @@ public static void launch() throws InterruptedException
 //    driver = new EdgeDriver();
 //	WebDriverManager.chromiumdriver().setup();
 //	driver = new ChromeDriver();
-	String path =System.getProperty("user.dir") +"\\src\\test\\java\\chromedriver.exe";
+	String path =System.getProperty("user.dir") +"src/test/java/chromedriver";
 	System.setProperty("webdriver.chrome.driver",path);
 	WebDriver driver = new ChromeDriver();
     driver.manage().window().maximize();
