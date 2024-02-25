@@ -32,8 +32,8 @@ public static void launch() throws InterruptedException
 //    driver = new EdgeDriver();
 //	WebDriverManager.chromiumdriver().setup();
 //	driver = new ChromeDriver();
-	String path =System.getProperty("user.dir") +"src/test/java/chromedriver";
-	System.setProperty("webdriver.chrome.driver",path);
+//	String path =System.getProperty("user.dir") +"/src/test/java/chromedriver-linux64/chromedriver";
+	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver/chromedriver");
 	WebDriver driver = new ChromeDriver();
     driver.manage().window().maximize();
     driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
