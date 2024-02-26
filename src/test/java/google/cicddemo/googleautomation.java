@@ -33,8 +33,8 @@ public static void launch() throws InterruptedException
 //	WebDriverManager.chromiumdriver().setup();
 //	driver = new ChromeDriver();
 //	String path =System.getProperty("user.dir") +"/src/test/java/chromedriver-linux64/chromedriver";
-	System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver/chromedriver");
-	WebDriver driver = new ChromeDriver();
+	System.setProperty("webdriver.gecko.driver","/snap/bin/geckodriver");
+	WebDriver driver = new FirefoxDriver();
     driver.manage().window().maximize();
     driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
     driver.get("https://www.techtheos.com/");
